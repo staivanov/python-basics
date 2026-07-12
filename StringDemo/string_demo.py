@@ -7,23 +7,23 @@ name = first_name + " " + last_name
 print(name.title())
 
 print("********************")
-petName = "Lisa"
-print(petName)
-print(petName.lower())
-print(petName.upper())
-print(f"\t{petName.title()}")
+pet_name = "Lisa"
+print(pet_name)
+print(pet_name.lower())
+print(pet_name.upper())
+print(f"\t{pet_name.title()}")
 print("Pets from last fifteen years: \n\tTomi \n\tLisa \n\tLucky \n\tFabien")
 print("********************")
-movieName = "Scarface  "
+movie_name = "Scarface  "
 #strip function remove whitespace only temporarily. There are rstrip and lstrip for removing right and left whitespace.
-movieName = movieName.strip()
+movie_name = movie_name.strip()
 ########################################
 #Prefix can be removed with .removeprefix
-mailClient = "https://gmail.com"
-print("Mail client with prefix ", mailClient)
+mail_client = "https://gmail.com"
+print("Mail client with prefix ", mail_client)
 tkn = "https://"
-mailClientWithoutPrefix = mailClient.removeprefix(tkn)
-print("Mail client without prefix: ", mailClientWithoutPrefix)
+mail_client_without_prefix = mail_client.removeprefix(tkn)
+print("Mail client without prefix: ", mail_client_without_prefix)
 
 
 
