@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Very simple print messages.">
-      <change afterPath="$PROJECT_DIR$/string_demo.py" afterDir="false" />
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Basic string demo with couple built-in functions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783808517797</updated>
       <workItem from="1783808518657" duration="222000" />
-      <workItem from="1783864282523" duration="4347000" />
+      <workItem from="1783864282523" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="Init for simple demo.">
       <option name="closed" value="true" />
@@ -92,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783866253055</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Basic string demo with couple built-in functions.">
+      <option name="closed" value="true" />
+      <created>1783868674378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1783868674378</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,10 +126,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init for simple demo." />
     <MESSAGE value="Very simple print messages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Very simple print messages." />
+    <MESSAGE value="Basic string demo with couple built-in functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic string demo with couple built-in functions." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_basics$simple_data_types.coverage" NAME="simple_data_types Coverage Results" MODIFIED="1783866009903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_basics$string_demo.coverage" NAME="string_demo Coverage Results" MODIFIED="1783868539770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_basics$string_demo.coverage" NAME="string_demo Coverage Results" MODIFIED="1783868987930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
