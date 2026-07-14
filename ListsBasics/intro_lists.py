@@ -14,4 +14,29 @@ print("*******************")
 message_to_all_bmw_fans = f"I like very much {famous_car_brands[1]}"
 print(message_to_all_bmw_fans)
 print("*******************")
-#2.
+#2. CRUD over list
+famous_car_brands[-1] = "Range Rover"
+print("All car brands in my list are: ", famous_car_brands)
+english_car_brand = "Jaguar"
+famous_car_brands.append(english_car_brand)
+
+famous_american_car_brand = "FORD"
+luxury_american_car_brand = "Cadillac"
+famous_car_brands.insert(7, famous_american_car_brand)
+famous_car_brands.insert(8, luxury_american_car_brand)
+print("All car brands in my list now are: ", famous_car_brands)
+#del keyword
+del famous_car_brands[-1]
+del famous_car_brands[-1]
+print("All car brands in my list now are: ", famous_car_brands)
+last_french_car_brand = famous_car_brands.pop()
+print("Last french brand in my list of car brands is", last_french_car_brand)
+#removing with pop() function from list by providing index
+motorcycles = ["Honda", "Kawasaki", "Suzuki", "BMW", "Yamaha"]
+top_brand_motorcycle = motorcycles.pop(0)
+sold_number = 20.2
+print("Top sold motorcycle brand for 2025 is", top_brand_motorcycle, "with", sold_number, "millions unit")
+#removing with remove() function by value from the list
+yamaha = "yamaha"
+motorcycles.remove(yamaha.title())
+print(f"Current list of motorcycles brands {motorcycles}")
