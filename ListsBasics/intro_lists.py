@@ -31,12 +31,29 @@ del famous_car_brands[-1]
 print("All car brands in my list now are: ", famous_car_brands)
 last_french_car_brand = famous_car_brands.pop()
 print("Last french brand in my list of car brands is", last_french_car_brand)
+print("*******************")
 #removing with pop() function from list by providing index
 motorcycles = ["Honda", "Kawasaki", "Suzuki", "BMW", "Yamaha"]
 top_brand_motorcycle = motorcycles.pop(0)
 sold_number = 20.2
-print("Top sold motorcycle brand for 2025 is", top_brand_motorcycle, "with", sold_number, "millions unit")
+print("Top sold motorcycle brand for 2025 is", top_brand_motorcycle, "with", sold_number, "millions unit.")
 #removing with remove() function by value from the list
 yamaha = "yamaha"
 motorcycles.remove(yamaha.title())
-print(f"Current list of motorcycles brands {motorcycles}")
+print(f"Current list of motorcycles brands. {motorcycles}")
+print("*******************")
+#3. Organizing a list
+rock_bands = ["The Rolling Stones", "Led Zeppelin", "Queen", "Deep Purple", "Pink Floyd"]
+rock_bands.sort()
+print("Rock bands in my list are sorted now.", rock_bands)
+rock_bands.sort(reverse=True)
+print("Rock bands in my list are in reverse order now.", rock_bands)
+#sorting list temporarily
+sorted(rock_bands)
+#reversing a list from n-th to 0 element
+rock_bands.reverse()
+print("Reverse order of a list", rock_bands)
+rock_bands_len = len(rock_bands)
+print("Length of rock bands list is", rock_bands_len)
+
+
