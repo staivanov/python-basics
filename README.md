@@ -1,0 +1,1 @@
+This is a repo with simple demo code of Python capabilities and solutions on exercises separated in different  folders.
