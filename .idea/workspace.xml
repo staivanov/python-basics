@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Readme file was created." />
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="little modification">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +64,7 @@
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.build",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1783808517797</updated>
       <workItem from="1783808518657" duration="222000" />
-      <workItem from="1783864282523" duration="43714000" />
+      <workItem from="1783864282523" duration="45088000" />
     </task>
     <task id="LOCAL-00001" summary="Init for simple demo.">
       <option name="closed" value="true" />
@@ -188,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784119565198</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="little modification">
+      <option name="closed" value="true" />
+      <created>1784120015604</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1784120015605</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +233,8 @@
     <MESSAGE value="Demo for basics list manipulations is completed." />
     <MESSAGE value="All exercises for list basics are solved." />
     <MESSAGE value="Readme file was created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme file was created." />
+    <MESSAGE value="little modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="little modification" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_basics$simple_data_types.coverage" NAME="simple_data_types Coverage Results" MODIFIED="1783866009903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
