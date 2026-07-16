@@ -1,1 +1,1 @@
-This is a repo with simple demo code of Python capabilities and solutions on exercises separated in different  folders.
+This is a repo with a simple demo code of Python capabilities and solutions on exercises separated in different  folders.
