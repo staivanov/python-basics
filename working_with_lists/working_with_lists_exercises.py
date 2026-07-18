@@ -47,20 +47,32 @@ cube_multiplier = 3
 first_ten_cubes = list(number ** cube_multiplier for number in range(1, 11))
 print("Cubes of the first ten numbers are", first_ten_cubes)
 print("***********************")
-#4-11
+# 4-11
 friend_pizzas = pizzas[:]
 pizzas.append("Margarita")
 print("My favorite pizzas are:")
 for pizza in pizzas:
     if pizza == pizzas[-1]:
-        print(pizza, end=" ", flush=True)
+        print("\t", pizza, end=" ", flush=True)
     else:
-        print(pizza, end = ", ", flush = True)
+        print("\t", pizza, end=", ", flush=True)
 print()
 print("\nMy friend's favorite pizzas are:")
 for pizza in friend_pizzas:
     if pizza == friend_pizzas[-1]:
-        print(pizza, end = " ", flush = True)
+        print("\t", pizza, end=" ", flush=True)
     else:
-        print(pizza, end = ", ", flush = True)
+        print("\t", pizza, end=", ", flush=True)
+
+print("\n***********************")
+# 4.13 Buffet.
+restaurant_food = ("chicken soup", "musaka", "shopska salata", "omelette with cheese", "banitsa")
+
+for current_food in restaurant_food:
+    print("\t", current_food)
+print("There are changes in our menu. Please, take a second and look.")
+restaurant_food = ("lamb's head", "musaka", "shopska salata", "omelette with cheese", "patatnik")
+
+for food in restaurant_food:
+    print("\t", food)
 

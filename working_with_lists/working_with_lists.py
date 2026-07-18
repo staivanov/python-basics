@@ -29,13 +29,20 @@ print("Demo for list comprehension", squares_v2)
 print("************************************")
 
 # Working with part of a list
-argentina_football_players = ["Musso", "Tagliafico", "Martinez", "Romero", "Otamendi", "Palacios", "Fernandez", "Alvarez", "MacAlistar", "Messi"]
+argentina_football_players = ["Musso", "Tagliafico", "Martinez", "Romero", "Otamendi", "Palacios", "Fernandez",
+                              "Alvarez", "MacAlistar", "Messi"]
 print("Squat members of National football team of Argentina :", argentina_football_players)
 first_three_players = argentina_football_players[0:3]
 print("First three players are", first_three_players)
 print("From second to fourth are ", argentina_football_players[1:4])
 print("From third to the end: ", argentina_football_players[2:])
 print("Last three players are: ", argentina_football_players[-3:])
-#Copy the entire list.
+# Copy the entire list.
 afa = argentina_football_players[:]
 print(afa)
+print("************************************")
+# Tuples
+dimension = (150, 50)
+print("Dimension [0] and [1]")
+print(dimension[0])
+print(dimension[1])

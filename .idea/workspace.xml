@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Functions like min, max, sum and range were introduced in demo. Solutions of some exercises with list operations.">
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Demo for advanced list operation is done. Exercises for this section are solved.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/working_with_lists/working_with_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_lists/working_with_lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/working_with_lists/working_with_lists_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_lists/working_with_lists_exercises.py" afterDir="false" />
@@ -102,7 +102,7 @@
       <workItem from="1784280883552" duration="4055000" />
       <workItem from="1784284972533" duration="1427000" />
       <workItem from="1784304405897" duration="2514000" />
-      <workItem from="1784357049466" duration="11436000" />
+      <workItem from="1784357049466" duration="18324000" />
     </task>
     <task id="LOCAL-00001" summary="Init for simple demo.">
       <option name="closed" value="true" />
@@ -248,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784366469509</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Demo for advanced list operation is done. Exercises for this section are solved.">
+      <option name="closed" value="true" />
+      <created>1784374421272</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1784374421272</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,14 +306,15 @@
     <MESSAGE value="New folder for working with lists plus two files for demo and solutions on exercises" />
     <MESSAGE value="New folder for working with lists plus two files for demo and solutions on exercises." />
     <MESSAGE value="Functions like min, max, sum and range were introduced in demo. Solutions of some exercises with list operations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions like min, max, sum and range were introduced in demo. Solutions of some exercises with list operations." />
+    <MESSAGE value="Demo for advanced list operation is done. Exercises for this section are solved." />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo for advanced list operation is done. Exercises for this section are solved." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_basics$working_with_lists_exercises.coverage" NAME="working_with_lists_exercises Coverage Results" MODIFIED="1784374268712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
+    <SUITE FILE_PATH="coverage/python_basics$working_with_lists_exercises.coverage" NAME="working_with_lists_exercises Coverage Results" MODIFIED="1784383156787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$simple_data_types.coverage" NAME="simple_data_types Coverage Results" MODIFIED="1783866009903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_basics$string_demo.coverage" NAME="string_demo Coverage Results" MODIFIED="1783870652314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
     <SUITE FILE_PATH="coverage/python_basics$numbers_exercises.coverage" NAME="numbers_exercises Coverage Results" MODIFIED="1783927987653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumbersDemo" />
-    <SUITE FILE_PATH="coverage/python_basics$working_with_lists.coverage" NAME="working_with_lists Coverage Results" MODIFIED="1784373089988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
+    <SUITE FILE_PATH="coverage/python_basics$working_with_lists.coverage" NAME="working_with_lists Coverage Results" MODIFIED="1784377997322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$intro_lists.coverage" NAME="intro_lists Coverage Results" MODIFIED="1784047430457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
     <SUITE FILE_PATH="coverage/python_basics$lists_exercises.coverage" NAME="lists_exercises Coverage Results" MODIFIED="1784104835629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
     <SUITE FILE_PATH="coverage/python_basics$string_exercises.coverage" NAME="string_exercises Coverage Results" MODIFIED="1783871067628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
