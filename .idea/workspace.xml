@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="little modification">
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="New folder for working with lists plus two files for demo and solutions on exercises.">
+      <change afterPath="$PROJECT_DIR$/working_with_lists/gitconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working_with_lists/working_with_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working_with_lists/working_with_lists_exercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +42,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3GNON9S23XdXl9IwbwDKonyRwMT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +59,8 @@
     "Python.simple_data_types.executor": "Run",
     "Python.string_demo.executor": "Run",
     "Python.string_exercises.executor": "Run",
+    "Python.working_with_lists.executor": "Run",
+    "Python.working_with_lists_exercises.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -61,7 +69,7 @@
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "ssh.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,6 +99,10 @@
       <workItem from="1783808518657" duration="222000" />
       <workItem from="1783864282523" duration="51891000" />
       <workItem from="1784180774464" duration="7142000" />
+      <workItem from="1784227901699" duration="121000" />
+      <workItem from="1784280883552" duration="4055000" />
+      <workItem from="1784284972533" duration="1427000" />
+      <workItem from="1784304405897" duration="2514000" />
     </task>
     <task id="LOCAL-00001" summary="Init for simple demo.">
       <option name="closed" value="true" />
@@ -212,15 +224,33 @@
       <option name="project" value="LOCAL" />
       <updated>1784199031056</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Folder renaming according convention for naming folders in Python.">
+      <option name="closed" value="true" />
+      <created>1784227994593</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1784227994593</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5c505db4-9f05-4de3-9661-47746862aedb" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="5c505db4-9f05-4de3-9661-47746862aedb">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -248,12 +278,17 @@
     <MESSAGE value="All exercises for list basics are solved." />
     <MESSAGE value="Readme file was created." />
     <MESSAGE value="little modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="little modification" />
+    <MESSAGE value="Folder renaming according convention for naming folders in Python." />
+    <MESSAGE value="New folder for working with lists plus two files for demo and solutions on exercises" />
+    <MESSAGE value="New folder for working with lists plus two files for demo and solutions on exercises." />
+    <option name="LAST_COMMIT_MESSAGE" value="New folder for working with lists plus two files for demo and solutions on exercises." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_basics$working_with_lists_exercises.coverage" NAME="working_with_lists_exercises Coverage Results" MODIFIED="1784284726639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$simple_data_types.coverage" NAME="simple_data_types Coverage Results" MODIFIED="1783866009903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_basics$string_demo.coverage" NAME="string_demo Coverage Results" MODIFIED="1783870652314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
     <SUITE FILE_PATH="coverage/python_basics$numbers_exercises.coverage" NAME="numbers_exercises Coverage Results" MODIFIED="1783927987653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumbersDemo" />
+    <SUITE FILE_PATH="coverage/python_basics$working_with_lists.coverage" NAME="working_with_lists Coverage Results" MODIFIED="1784281243943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$intro_lists.coverage" NAME="intro_lists Coverage Results" MODIFIED="1784047430457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
     <SUITE FILE_PATH="coverage/python_basics$lists_exercises.coverage" NAME="lists_exercises Coverage Results" MODIFIED="1784104835629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
     <SUITE FILE_PATH="coverage/python_basics$string_exercises.coverage" NAME="string_exercises Coverage Results" MODIFIED="1783871067628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
