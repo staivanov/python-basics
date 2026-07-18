@@ -46,3 +46,21 @@ print("***********************")
 cube_multiplier = 3
 first_ten_cubes = list(number ** cube_multiplier for number in range(1, 11))
 print("Cubes of the first ten numbers are", first_ten_cubes)
+print("***********************")
+#4-11
+friend_pizzas = pizzas[:]
+pizzas.append("Margarita")
+print("My favorite pizzas are:")
+for pizza in pizzas:
+    if pizza == pizzas[-1]:
+        print(pizza, end=" ", flush=True)
+    else:
+        print(pizza, end = ", ", flush = True)
+print()
+print("\nMy friend's favorite pizzas are:")
+for pizza in friend_pizzas:
+    if pizza == friend_pizzas[-1]:
+        print(pizza, end = " ", flush = True)
+    else:
+        print(pizza, end = ", ", flush = True)
+
