@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Demo for advanced list operation is done. Exercises for this section are solved.">
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Demo and solutions of exercises are 100 percent done in this section.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/working_with_lists/working_with_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_lists/working_with_lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/working_with_lists/working_with_lists_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_lists/working_with_lists_exercises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,30 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.intro_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lists_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.numbers_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.numbers_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple_data_types.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.working_with_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.working_with_lists_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.intro_lists.executor": "Run",
+    "Python.lists_exercises.executor": "Run",
+    "Python.numbers_demo.executor": "Run",
+    "Python.numbers_exercises.executor": "Run",
+    "Python.simple_data_types.executor": "Run",
+    "Python.string_demo.executor": "Run",
+    "Python.string_exercises.executor": "Run",
+    "Python.working_with_lists.executor": "Run",
+    "Python.working_with_lists_exercises.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ssh.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/StringDemo" />
@@ -102,7 +101,8 @@
       <workItem from="1784280883552" duration="4055000" />
       <workItem from="1784284972533" duration="1427000" />
       <workItem from="1784304405897" duration="2514000" />
-      <workItem from="1784357049466" duration="18324000" />
+      <workItem from="1784357049466" duration="19037000" />
+      <workItem from="1784436971985" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="Init for simple demo.">
       <option name="closed" value="true" />
@@ -256,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784374421272</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Demo and solutions of exercises are 100 percent done in this section.">
+      <option name="closed" value="true" />
+      <created>1784383614210</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1784383614210</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +315,8 @@
     <MESSAGE value="New folder for working with lists plus two files for demo and solutions on exercises." />
     <MESSAGE value="Functions like min, max, sum and range were introduced in demo. Solutions of some exercises with list operations." />
     <MESSAGE value="Demo for advanced list operation is done. Exercises for this section are solved." />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo for advanced list operation is done. Exercises for this section are solved." />
+    <MESSAGE value="Demo and solutions of exercises are 100 percent done in this section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo and solutions of exercises are 100 percent done in this section." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_basics$working_with_lists_exercises.coverage" NAME="working_with_lists_exercises Coverage Results" MODIFIED="1784383156787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
