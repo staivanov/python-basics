@@ -31,7 +31,25 @@ ford = "FORD"
 is_ford_available = ford in car_brands
 print("Is FORD in my list of car brands? Result is .... ", is_ford_available)
 
-#Boolean expressions
+# Boolean expressions
 can_edit = False
 is_it_dependable = True
 print("*****************************************")
+
+# if-elif-else
+print("Welcome to the National Zoological Park")
+current_age = 21
+infant = 1
+toddler = 3
+teenager = 17
+adult = 18
+max_possible_age = 110
+
+if current_age <= infant or current_age <= toddler:
+    print("You don't have to pay for entry ticket.")
+elif toddler < current_age <= teenager:
+    print("Your entry ticket is 5 euro.")
+elif adult <= current_age <= max_possible_age:
+    print("Your ticket is 8 euro.")
+else:
+    print("Invalid age.")
