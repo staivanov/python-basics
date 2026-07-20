@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Demo was completed successfully. Solutions of exercises are #5.6 and #5.7 done.">
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Solutions to all exercises in this chapter are ready.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if_statements/if_statements_solutions.py" beforeDir="false" afterPath="$PROJECT_DIR$/if_statements/if_statements_solutions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists_basics/lists_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists_basics/lists_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numbers_demo/numbers_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/numbers_demo/numbers_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_demo/string_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_demo/string_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/working_with_lists/working_with_lists_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_lists/working_with_lists_exercises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +113,7 @@
       <workItem from="1784304405897" duration="2514000" />
       <workItem from="1784357049466" duration="19037000" />
       <workItem from="1784436971985" duration="601000" />
-      <workItem from="1784474431786" duration="18307000" />
+      <workItem from="1784474431786" duration="20949000" />
     </task>
     <task id="LOCAL-00001" summary="Init for simple demo.">
       <option name="closed" value="true" />
@@ -312,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784503185968</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Solutions to all exercises in this chapter are ready.">
+      <option name="closed" value="true" />
+      <created>1784528286292</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1784528286292</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +380,8 @@
     <MESSAGE value="Solutions for the first part of exercises in this chapter are done." />
     <MESSAGE value="File renaming due to spelling error." />
     <MESSAGE value="Demo was completed successfully. Solutions of exercises are #5.6 and #5.7 done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo was completed successfully. Solutions of exercises are #5.6 and #5.7 done." />
+    <MESSAGE value="Solutions to all exercises in this chapter are ready." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solutions to all exercises in this chapter are ready." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_basics$if_statements_demo.coverage" NAME="if_statements_demo Coverage Results" MODIFIED="1784480081325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if_statements" />
@@ -382,7 +394,7 @@
     <SUITE FILE_PATH="coverage/python_basics$if_stateents_solutions.coverage" NAME="if_stateents_solutions Coverage Results" MODIFIED="1784478403020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if_statements" />
     <SUITE FILE_PATH="coverage/python_basics$string_demo.coverage" NAME="string_demo Coverage Results" MODIFIED="1783870652314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
     <SUITE FILE_PATH="coverage/python_basics$intro_lists.coverage" NAME="intro_lists Coverage Results" MODIFIED="1784047430457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
-    <SUITE FILE_PATH="coverage/python_basics$lists_exercises.coverage" NAME="lists_exercises Coverage Results" MODIFIED="1784104835629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
-    <SUITE FILE_PATH="coverage/python_basics$string_exercises.coverage" NAME="string_exercises Coverage Results" MODIFIED="1783871067628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
+    <SUITE FILE_PATH="coverage/python_basics$lists_exercises.coverage" NAME="lists_exercises Coverage Results" MODIFIED="1784529549880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lists_basics" />
+    <SUITE FILE_PATH="coverage/python_basics$string_exercises.coverage" NAME="string_exercises Coverage Results" MODIFIED="1784529020967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/string_demo" />
   </component>
 </project>

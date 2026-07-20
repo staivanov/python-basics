@@ -1,4 +1,4 @@
-# 4.1
+# 4.1 Pizzas
 pizzas = ["Neapolitana", "Mania", "Capricciosa"]
 
 for pizza in pizzas:
@@ -7,14 +7,14 @@ for pizza in pizzas:
 statement_about_pizzas = "I really like these type of pizzas from above. Recommend it to everyone."
 print(statement_about_pizzas)
 print("***********************")
-# 4.2
+# 4.2 Animals
 raptors = ["eagle", "falcon", "hawk"]
 
 for raptor in raptors:
     print(f"{raptor} is found on all continents except on Antarctica.")
 
 print("Any of these animal is skilled in hunting!")
-# 4.3
+# 4.3 Counting to Twenty
 numbers_to_twenty = list(range(1, 21))
 
 for number in numbers_to_twenty:
@@ -75,4 +75,3 @@ restaurant_food = ("lamb's head", "musaka", "shopska salata", "omelette with che
 
 for food in restaurant_food:
     print("\t", food)
-
