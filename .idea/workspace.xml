@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Renaming folders to make them countable.">
-      <change afterPath="$PROJECT_DIR$/7.user_input_and_while_loops/user_inputs_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.user_input_and_while_loops/user_inputs_while_exercises_and_solutions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.user_input_and_while_loops/while_loops_demo.py" afterDir="false" />
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="A new folder was created with a couple of files. User inputs, while loops, and a file for solutions and exercises over the material in this chapter.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.user_input_and_while_loops/user_inputs_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.user_input_and_while_loops/user_inputs_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.user_input_and_while_loops/user_inputs_while_exercises_and_solutions.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.user_input_and_while_loops/user_inputs_while_exercises_and_solutions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,38 +51,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.dictionaries_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictionaries_exercises_and_solutions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.if_stateents_solutions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.if_statements_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.if_statements_solutions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.intro_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lists_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.numbers_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.numbers_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple_data_types.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.working_with_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.working_with_lists_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.dictionaries_demo.executor": "Run",
+    "Python.dictionaries_exercises_and_solutions.executor": "Run",
+    "Python.if_stateents_solutions.executor": "Run",
+    "Python.if_statements_demo.executor": "Run",
+    "Python.if_statements_solutions.executor": "Run",
+    "Python.intro_lists.executor": "Run",
+    "Python.lists_exercises.executor": "Run",
+    "Python.numbers_demo.executor": "Run",
+    "Python.numbers_exercises.executor": "Run",
+    "Python.simple_data_types.executor": "Run",
+    "Python.string_demo.executor": "Run",
+    "Python.string_exercises.executor": "Run",
+    "Python.user_inputs_demo.executor": "Run",
+    "Python.user_inputs_while_exercises_and_solutions.executor": "Run",
+    "Python.working_with_lists.executor": "Run",
+    "Python.working_with_lists_exercises.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/StringDemo" />
@@ -92,8 +93,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.8665.309" />
-        <option value="bundled-python-sdk-c6d794e1806d-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.309" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.8665.369" />
+        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
       </set>
     </attachedChunks>
   </component>
@@ -119,7 +120,9 @@
       <workItem from="1784474431786" duration="21103000" />
       <workItem from="1784927035454" duration="754000" />
       <workItem from="1784927837658" duration="43092000" />
-      <workItem from="1785443924711" duration="349000" />
+      <workItem from="1785443924711" duration="2452000" />
+      <workItem from="1785491101128" duration="427000" />
+      <workItem from="1785491545273" duration="5255000" />
     </task>
     <task id="LOCAL-00001" summary="Init for simple demo.">
       <option name="closed" value="true" />
@@ -377,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785078759165</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="A new folder was created with a couple of files. User inputs, while loops and file for solutions and exercises over the material in this chapter.">
+      <option name="closed" value="true" />
+      <created>1785444293791</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1785444293791</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,8 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Two new files were created. First one is for demo purpose and second is for very simple exercises" />
-    <MESSAGE value="Two new files were created for demo purposes. First part in them is completed." />
     <MESSAGE value="Second part for list operations is complete." />
     <MESSAGE value="Demo for basics list manipulations is completed." />
     <MESSAGE value="All exercises for list basics are solved." />
@@ -436,7 +445,9 @@
     <MESSAGE value="Solutions of all excercises." />
     <MESSAGE value="Full demo is completed." />
     <MESSAGE value="Renaming folders to make them countable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming folders to make them countable." />
+    <MESSAGE value="A new folder was created with a couple of files. User inputs, while loops and file for solutions and exercises over the material in this chapter." />
+    <MESSAGE value="A new folder was created with a couple of files. User inputs, while loops and a file for solutions and exercises over the material in this chapter." />
+    <option name="LAST_COMMIT_MESSAGE" value="A new folder was created with a couple of files. User inputs, while loops and a file for solutions and exercises over the material in this chapter." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_basics$dictionaries_demo.coverage" NAME="dictionaries_demo Coverage Results" MODIFIED="1784987661165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.dictionaries" />
@@ -447,6 +458,8 @@
     <SUITE FILE_PATH="coverage/python_basics$working_with_lists_exercises.coverage" NAME="working_with_lists_exercises Coverage Results" MODIFIED="1784383156787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$lists_exercises.coverage" NAME="lists_exercises Coverage Results" MODIFIED="1784529549880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lists_basics" />
     <SUITE FILE_PATH="coverage/python_basics$intro_lists.coverage" NAME="intro_lists Coverage Results" MODIFIED="1784047430457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
+    <SUITE FILE_PATH="coverage/python_basics$user_inputs_while_exercises_and_solutions.coverage" NAME="user_inputs_while_exercises_and_solutions Coverage Results" MODIFIED="1785497809870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.user_input_and_while_loops" />
+    <SUITE FILE_PATH="coverage/python_basics$user_inputs_demo.coverage" NAME="user_inputs_demo Coverage Results" MODIFIED="1785497192575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.user_input_and_while_loops" />
     <SUITE FILE_PATH="coverage/python_basics$numbers_demo.coverage" NAME="numbers_demo Coverage Results" MODIFIED="1783927700305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumbersDemo" />
     <SUITE FILE_PATH="coverage/python_basics$if_stateents_solutions.coverage" NAME="if_stateents_solutions Coverage Results" MODIFIED="1784478403020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if_statements" />
     <SUITE FILE_PATH="coverage/python_basics$simple_data_types.coverage" NAME="simple_data_types Coverage Results" MODIFIED="1783866009903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
