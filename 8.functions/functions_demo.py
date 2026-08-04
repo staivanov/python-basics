@@ -151,4 +151,22 @@ def make_fake_car(brand, model, *parts):
 
 bulgar_car = make_fake_car("Opel", "Corsa", "suspensions", "coupe", "tires", "windows", "stereo", "air conditioner")
 print(bulgar_car)
+print("****************************")
+
+# Using arbitrary keyword arguments.
+def build_user_profile(username, first_name, last_name, email, **user_info):
+     """Build a dictionary containing everything we know about a user. """
+     user_info["username"] = username
+     user_info["first_name"] = first_name
+     user_info["last_name"] = last_name
+     user_info["email"] = email
+     return user_info
+
+user_info = {}
+
+user_profile = build_user_profile("code213", "Alexis",
+                                  "Michael", email ="alexael@yahoo.com",
+                                  country = "USA", age = 28, gender = "male")
+print(user_profile)
+
 
