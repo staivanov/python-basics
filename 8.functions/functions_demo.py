@@ -91,4 +91,35 @@ def build_person(first_name, last_name, gender, nationality, age=None, ):
 
 current_bulgarian_primer_minister = build_person("Rumen", "Radev", "male", 63, "bulgarian")
 print(f"The current prime minster on the Republic of Bulgaria is \n\t {current_bulgarian_primer_minister}.")
+print("****************************")
+
+
+# Passing a List as a function argument.
+
+def print_all_usernames(users):
+    """Print sequentially every username from the provided list."""
+    for user in users:
+        print(user)
+
+
+usernames = ["ace", "ICEMAN", "MaX_PoweR", "EyeS", "dreben", "bigBasss", "animimi"]
+print_all_usernames(usernames)
+print("****************************")
+
+
+# Modifying a List in a Function.
+
+def make_all_usernames_lowercase(usernames):
+    """ Make every provided username lowercase. """
+    index = 0
+    usernamesLength = len(usernames)
+
+    while index < usernamesLength:
+        usernames[index] = usernames[index].lower()
+        index += 1
+
+
+make_all_usernames_lowercase(usernames)
+print(usernames)
+print("****************************")
 
