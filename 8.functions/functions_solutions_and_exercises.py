@@ -99,24 +99,99 @@ print("******************************************")
 # 8.8 User Album
 quit = "q"
 
-while True:
+# while True:
+#
+#     artist = input("Please, enter name of the artist. Enter \'q\' for quit.\n")
+#
+#     if artist == quit: break
+#
+#     name_of_the_album = input("Please, enter name of the album.\n")
+#     number_of_songs = 0
+#
+#     try:
+#         number_of_songs = int(input("How many song are in the album.\n"))
+#     except:
+#         print("Invalid input!")
+#
+#     if number_of_songs > 0:
+#         current_album = make_album(artist, name_of_the_album, number_of_songs)
+#     else:
+#        current_album = make_album(artist, name_of_the_album)
+#
+#     print(f"{current_album} \n")
 
-    artist = input("Please, enter name of the artist. Enter \'q\' for quit.\n")
+# 8.9 Messages
+text_messages = ["Hello, reader!", "Good mooring, mthfkrs", "Girls, girls, girls!",
+                 "You wake up late for school, man, you don't wanna go"]
 
-    if artist == quit: break
 
-    name_of_the_album = input("Please, enter name of the album.\n")
-    number_of_songs = 0
+def show_messages(text_messages):
+    for message in text_messages:
+        print(message)
 
-    try:
-        number_of_songs = int(input("How many song are in the album.\n"))
-    except:
-        print("Invalid input!")
 
-    if number_of_songs > 0:
-        current_album = make_album(artist, name_of_the_album, number_of_songs)
-    else:
-       current_album = make_album(artist, name_of_the_album)
+show_messages(text_messages)
+print("******************************************")
 
-    print(f"{current_album} \n")
 
+# 8.10 Sending Messages
+
+def send_messages(messages, sent_messages):
+    while messages:
+        current_msg = messages.pop()
+        print(current_msg)
+        sent_messages.append(current_msg)
+
+
+sent_messages = []
+send_messages(text_messages, sent_messages)
+
+# 8.11 Archived Messages.
+text_messages_v2 = ["Hello, reader!", "Good mooring, mthfkrs", "Girls, girls, girls!",
+                    "You wake up late for school, man, you don't wanna go"]
+sent_messages_v2 = []
+send_messages(text_messages_v2[:], sent_messages_v2)
+# After function invocation content in text_messages is preserved, because this version use a copy of the list text_messages_v2.
+print(sent_messages_v2)
+print(text_messages_v2)
+print("******************************************")
+
+
+# 8.12 Sandwiches
+def make_sandwich(sandwich_name, *items):
+    print(f"Your sandwich `{sandwich_name}` has these ingredients: ")
+    for item in items[0]:
+        print(f"\t{item}")
+
+
+greek_sandwich_ingredients = ["soft pita", "feta cheese", "ripe tomatoes", "cucumbers", "red onions", "Kalamata olives"]
+make_sandwich("Greek sandwich", greek_sandwich_ingredients)
+princess_ingredients = ["minced meat", "bread slices"]
+make_sandwich("princess", princess_ingredients)
+baked_spicy_chicken_ingredients = ["breadcrumbs", "garlic powder", "smoked paprika", "cayenne", "salt", "pepper",
+                                   "skinless chicken breast"]
+make_sandwich("Baked spicy chicken", baked_spicy_chicken_ingredients)
+print("******************************************")
+
+
+# 8.13 User profile
+def build_profile(first_name, last_name, **description):
+    description["first_name"] = first_name
+    description["last_name"] = last_name
+    return description
+
+
+bio = build_profile("Stanislav", "Ivanov", gender="male",
+                    age=36, nationality="bulgarian", job="The Best In The World!")
+print(bio)
+print("******************************************")
+
+# 8.14 Cars
+def make_car(manufacturer, model, **description):
+    description["manufacturer"] = manufacturer
+    description["model"] = model
+    return description
+
+monster_car = make_car("Ford", "Focus", engine_power_Hp = 101, engine_type = "diesel", doors = 5)
+for k,v in monster_car.items():
+    print(f"{k} - {v}")
