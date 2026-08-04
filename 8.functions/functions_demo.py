@@ -123,3 +123,32 @@ make_all_usernames_lowercase(usernames)
 print(usernames)
 print("****************************")
 
+
+# Passing an arbitrary number of arguments.
+
+def print_all_colors(*colors):
+    """ Print all provided colors to the console. """
+    print(colors)
+
+
+colors = ["blue", "red", "white", "black", "yellow"]
+print_all_colors(colors)
+colors_v2 = ["purple", "green"]
+print_all_colors(colors_v2)
+print("****************************")
+
+
+# Mixing positional and arbitrary arguments.
+def make_fake_car(brand, model, *parts):
+    """ This function make a fake demo car. """
+    print(f"{brand} {model}")
+    car = {
+        "brand": brand,
+        "model": model,
+        "parts" : parts
+    }
+    return car
+
+bulgar_car = make_fake_car("Opel", "Corsa", "suspensions", "coupe", "tires", "windows", "stereo", "air conditioner")
+print(bulgar_car)
+
