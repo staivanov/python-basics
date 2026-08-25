@@ -1,6 +1,6 @@
 from dog import Dog
 from restaurant import Restaurant
-from car import Car
+from car import Car, ElectricCar
 
 # Dog demo.
 my_dog = Dog("Dark Lord", 8, "male")
@@ -23,5 +23,8 @@ print('*' * 30)
 
 # Car demo.
 
-my_new_car = Car("Porsche", "911 Carrera", 2005)
+my_new_car = Car("Porsche", "911 Carrera", 2005, 83000)
 print("My new car is " + my_new_car.get_description())
+toyota_prius = ElectricCar("Toyota", "Prius", 2025, 0, 40)
+print(toyota_prius.get_description())
+print(toyota_prius.describe_battery())
