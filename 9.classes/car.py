@@ -25,20 +25,3 @@ class Car:
 
     def increase_odometer(self, km):
         self.odometer += km
-
-class ElectricCar(Car):
-    """ Represent an electric car. """
-    def __init__(self, make, model, year, odometer, battery_size):
-        """Initialize attributes of the parent class."""
-        super().__init__(make, model, year, odometer)
-        self.battery_size = battery_size
-
-    def get_description(self):
-        """ Return a neatly formatted descriptive name for current instance of Electric car. """
-        car_description = f"{self.make} {self.model} with {self.battery_size} kW from {self.year} year."
-        return car_description
-
-    def describe_battery(self):
-        """ This method provides info about the battery size to the current Electric car instance."""
-        battery_description = f"This car has a {self.battery_size}-kWh battery."
-        return battery_description
