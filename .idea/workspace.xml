@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="A new class Admin was defined.">
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Two new files for demo, exercises and solutions were created. Plus simple demo.">
+      <change afterPath="$PROJECT_DIR$/10.files_and_exceptions/writing_to_a_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.files_and_exceptions/writing_to_a_file_exercises_solutions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.classes/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.classes/car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.classes/classes_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.classes/classes_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9.classes/classes_exercises_and_solutions.py" beforeDir="false" afterPath="$PROJECT_DIR$/9.classes/classes_exercises_and_solutions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,7 @@
     "Python.lists_exercises.executor": "Run",
     "Python.numbers_demo.executor": "Run",
     "Python.numbers_exercises.executor": "Run",
+    "Python.reading_from_a_file_demo.executor": "Run",
     "Python.simple_data_types.executor": "Run",
     "Python.string_demo.executor": "Run",
     "Python.string_exercises.executor": "Run",
@@ -136,63 +136,8 @@
       <workItem from="1785849286410" duration="20701000" />
       <workItem from="1787426619541" duration="31000" />
       <workItem from="1787426657450" duration="545000" />
-      <workItem from="1787427237179" duration="39611000" />
-    </task>
-    <task id="LOCAL-00008" summary="Two new files were created for demo purposes. First part in them is completed.">
-      <option name="closed" value="true" />
-      <created>1784037347963</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1784037347963</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Second part for list operations is complete.">
-      <option name="closed" value="true" />
-      <created>1784041470330</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1784041470330</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Demo for basics list manipulations is completed.">
-      <option name="closed" value="true" />
-      <created>1784047910944</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1784047910944</updated>
-    </task>
-    <task id="LOCAL-00011" summary="All exercises for list basics are solved.">
-      <option name="closed" value="true" />
-      <created>1784105287254</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1784105287254</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Readme file was created.">
-      <option name="closed" value="true" />
-      <created>1784119565198</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1784119565198</updated>
-    </task>
-    <task id="LOCAL-00013" summary="little modification">
-      <option name="closed" value="true" />
-      <created>1784120015604</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1784120015605</updated>
-    </task>
-    <task id="LOCAL-00014" summary="little modification">
-      <option name="closed" value="true" />
-      <created>1784122025034</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1784122025034</updated>
+      <workItem from="1787427237179" duration="46198000" />
+      <workItem from="1788501677177" duration="3426000" />
     </task>
     <task id="LOCAL-00015" summary="little modification">
       <option name="closed" value="true" />
@@ -530,7 +475,63 @@
       <option name="project" value="LOCAL" />
       <updated>1787750116608</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Major modification inside this class. ElectricCar class was removed and placed in a separate module.">
+      <option name="closed" value="true" />
+      <created>1787750191124</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1787750191124</updated>
+    </task>
+    <task id="LOCAL-00058" summary="New solutions to exercises.">
+      <option name="closed" value="true" />
+      <created>1787750202577</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1787750202577</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Minor modifications.">
+      <option name="closed" value="true" />
+      <created>1787750233411</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1787750233411</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Minor modifications.">
+      <option name="closed" value="true" />
+      <created>1787750240180</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1787750240180</updated>
+    </task>
+    <task id="LOCAL-00061" summary="A new function that draws elements in a random positions from the provided source was defined. Alongside with that is a simple demo.">
+      <option name="closed" value="true" />
+      <created>1787832720542</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1787832720542</updated>
+    </task>
+    <task id="LOCAL-00062" summary="A new *.txt file that contains pi digits.">
+      <option name="closed" value="true" />
+      <created>1788505017107</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1788505017108</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Two new files for demo, exercises and solutions were created. Plus simple demo.">
+      <option name="closed" value="true" />
+      <created>1788505085846</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1788505085846</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,11 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="A new folder was created with a couple of files. User inputs, while loops and a file for solutions and exercises over the material in this chapter." />
-    <MESSAGE value="Simple demo code and three solutions of exercises." />
-    <MESSAGE value="Simple demo code for every topic from this chapter." />
-    <MESSAGE value="Solutions of all exercises." />
-    <MESSAGE value="Demo for functions with parameters" />
     <MESSAGE value="Two new solutions." />
     <MESSAGE value="Some modifications." />
     <MESSAGE value="Two new functions. A new function with a list as parameter and second is for list modifying provided list." />
@@ -569,7 +565,6 @@
     <MESSAGE value="Two new classes representing a user and a restaurant." />
     <MESSAGE value="Simple demo with dogs instances and restaurants instances." />
     <MESSAGE value="Solutions for three exercises." />
-    <MESSAGE value="Minor modifications." />
     <MESSAGE value="A new class Car was created." />
     <MESSAGE value="Classes demo was updated with more code." />
     <MESSAGE value="Restaurant and user classes were updated." />
@@ -579,31 +574,38 @@
     <MESSAGE value="A new class ElectricCar was defined." />
     <MESSAGE value="A new class Battery was defined." />
     <MESSAGE value="A new class Admin was defined." />
-    <option name="LAST_COMMIT_MESSAGE" value="A new class Admin was defined." />
+    <MESSAGE value="Major modification inside this class. ElectricCar class was removed and placed in a separate module." />
+    <MESSAGE value="New solutions to exercises." />
+    <MESSAGE value="Minor modifications." />
+    <MESSAGE value="A new function that draws elements in a random positions from the provided source was defined. Alongside with that is a simple demo." />
+    <MESSAGE value="A new *.txt file that contains pi digits." />
+    <MESSAGE value="Two new files for demo, exercises and solutions were created. Plus simple demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Two new files for demo, exercises and solutions were created. Plus simple demo." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_basics$dictionaries_demo.coverage" NAME="dictionaries_demo Coverage Results" MODIFIED="1784987661165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.dictionaries" />
     <SUITE FILE_PATH="coverage/python_basics$numbers_exercises.coverage" NAME="numbers_exercises Coverage Results" MODIFIED="1783927987653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumbersDemo" />
-    <SUITE FILE_PATH="coverage/python_basics$user.coverage" NAME="user Coverage Results" MODIFIED="1787516644111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
-    <SUITE FILE_PATH="coverage/python_basics$working_with_lists.coverage" NAME="working_with_lists Coverage Results" MODIFIED="1784377997322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$functions_demo.coverage" NAME="functions_demo Coverage Results" MODIFIED="1785877654407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.functions" />
     <SUITE FILE_PATH="coverage/python_basics$string_exercises.coverage" NAME="string_exercises Coverage Results" MODIFIED="1784529020967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/string_demo" />
     <SUITE FILE_PATH="coverage/python_basics$functions_solutions_and_exercises.coverage" NAME="functions_solutions_and_exercises Coverage Results" MODIFIED="1785883505808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.functions" />
     <SUITE FILE_PATH="coverage/python_basics$dictionaries_exercises_and_solutions.coverage" NAME="dictionaries_exercises_and_solutions Coverage Results" MODIFIED="1785076449505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.dictionaries" />
-    <SUITE FILE_PATH="coverage/python_basics$car.coverage" NAME="car Coverage Results" MODIFIED="1787732723364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
-    <SUITE FILE_PATH="coverage/python_basics$classes_exercises_and_solutions.coverage" NAME="classes_exercises_and_solutions Coverage Results" MODIFIED="1787749975565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
-    <SUITE FILE_PATH="coverage/python_basics$working_with_lists_exercises.coverage" NAME="working_with_lists_exercises Coverage Results" MODIFIED="1784383156787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$classes_demo.coverage" NAME="classes_demo Coverage Results" MODIFIED="1787732870904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
     <SUITE FILE_PATH="coverage/python_basics$while_loops_demo.coverage" NAME="while_loops_demo Coverage Results" MODIFIED="1785523267934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.user_input_and_while_loops" />
     <SUITE FILE_PATH="coverage/python_basics$lists_exercises.coverage" NAME="lists_exercises Coverage Results" MODIFIED="1784529549880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lists_basics" />
     <SUITE FILE_PATH="coverage/python_basics$intro_lists.coverage" NAME="intro_lists Coverage Results" MODIFIED="1784047430457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
     <SUITE FILE_PATH="coverage/python_basics$user_inputs_while_exercises_and_solutions.coverage" NAME="user_inputs_while_exercises_and_solutions Coverage Results" MODIFIED="1785526878422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.user_input_and_while_loops" />
-    <SUITE FILE_PATH="coverage/python_basics$user_inputs_demo.coverage" NAME="user_inputs_demo Coverage Results" MODIFIED="1785497192575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.user_input_and_while_loops" />
     <SUITE FILE_PATH="coverage/python_basics$numbers_demo.coverage" NAME="numbers_demo Coverage Results" MODIFIED="1783927700305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumbersDemo" />
+    <SUITE FILE_PATH="coverage/python_basics$if_statements_solutions.coverage" NAME="if_statements_solutions Coverage Results" MODIFIED="1784528230078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if_statements" />
+    <SUITE FILE_PATH="coverage/python_basics$dictionaries_demo.coverage" NAME="dictionaries_demo Coverage Results" MODIFIED="1784987661165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6.dictionaries" />
+    <SUITE FILE_PATH="coverage/python_basics$user.coverage" NAME="user Coverage Results" MODIFIED="1787516644111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
+    <SUITE FILE_PATH="coverage/python_basics$working_with_lists.coverage" NAME="working_with_lists Coverage Results" MODIFIED="1784377997322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
+    <SUITE FILE_PATH="coverage/python_basics$reading_from_a_file_demo.coverage" NAME="reading_from_a_file_demo Coverage Results" MODIFIED="1788504736127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.files_and_exceptions" />
+    <SUITE FILE_PATH="coverage/python_basics$car.coverage" NAME="car Coverage Results" MODIFIED="1787732723364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
+    <SUITE FILE_PATH="coverage/python_basics$classes_exercises_and_solutions.coverage" NAME="classes_exercises_and_solutions Coverage Results" MODIFIED="1787832525280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
+    <SUITE FILE_PATH="coverage/python_basics$working_with_lists_exercises.coverage" NAME="working_with_lists_exercises Coverage Results" MODIFIED="1784383156787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
+    <SUITE FILE_PATH="coverage/python_basics$user_inputs_demo.coverage" NAME="user_inputs_demo Coverage Results" MODIFIED="1785497192575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.user_input_and_while_loops" />
     <SUITE FILE_PATH="coverage/python_basics$if_stateents_solutions.coverage" NAME="if_stateents_solutions Coverage Results" MODIFIED="1784478403020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if_statements" />
     <SUITE FILE_PATH="coverage/python_basics$simple_data_types.coverage" NAME="simple_data_types Coverage Results" MODIFIED="1783866009903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_basics$string_demo.coverage" NAME="string_demo Coverage Results" MODIFIED="1783870652314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
-    <SUITE FILE_PATH="coverage/python_basics$if_statements_solutions.coverage" NAME="if_statements_solutions Coverage Results" MODIFIED="1784528230078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if_statements" />
     <SUITE FILE_PATH="coverage/python_basics$if_statements_demo.coverage" NAME="if_statements_demo Coverage Results" MODIFIED="1784480081325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if_statements" />
   </component>
 </project>
