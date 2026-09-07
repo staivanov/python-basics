@@ -14,7 +14,7 @@ for line in content_of_lines:
     print(line)
 print('*' * 30)
 
-# 10.2 Learning C. Replace every word Python with user defined word.
+# 10.2 Learning C. Replace every word Python with user-defined word.
 for line in content_of_lines:
     line = line.replace('Python', 'C')
     print(line)
