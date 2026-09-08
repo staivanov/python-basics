@@ -50,3 +50,21 @@ else:
     print(f"The number of words is {wordsCnt} in the {python_file_name} file.")
 print("*" * 50)
 
+# Working with multiple files.
+def count_words(path):
+    """ This function reads text from a provided Path object, finds the number of all words, and prints the result on the console. """
+    try:
+        contents = path.read_text(encoding='utf-8')
+    except FileNotFoundError:
+        pass  # tells it to do nothing in the current block.
+    else:
+        all_words = contents.split()
+        number_of_all_words = len(all_words)
+        print(f"The number of words is {number_of_all_words} in the file {path}.")
+
+
+books_title = ["The story of the world.txt", "The Adventures of Sherlock Holmes.txt", "The Odyssey.txt"]
+
+for book_title in books_title:
+    current_path = Path(book_title)
+    count_words(current_path)
