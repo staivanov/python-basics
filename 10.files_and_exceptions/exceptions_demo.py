@@ -50,6 +50,7 @@ else:
     print(f"The number of words is {wordsCnt} in the {python_file_name} file.")
 print("*" * 50)
 
+
 # Working with multiple files.
 def count_words(path):
     """ This function reads text from a provided Path object, finds the number of all words, and prints the result on the console. """

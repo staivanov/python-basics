@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 
+
 def get_stored_username(path):
     """ Get stored username if it is available."""
     if path.exists():
@@ -28,5 +29,6 @@ def greet_user():
     else:
         username = get_new_username(path)
         print(f"You are saved, {username}.")
+
 
 greet_user()

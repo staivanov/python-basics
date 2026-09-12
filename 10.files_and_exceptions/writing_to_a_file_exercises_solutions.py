@@ -20,8 +20,7 @@ while True:
     print("Enter your full name: ")
     current_full_name = input()
     if current_full_name == 'q': break
-    guest_names += current_full_name  + '\n'
-
+    guest_names += current_full_name + '\n'
 
 guests_file_name = 'guest_book.txt'
 guests_path = Path(guests_file_name)
