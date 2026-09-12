@@ -1,0 +1,4 @@
+In Python there are 4 built-in data types.
+In Python you must use proper indentations.
+In Python comments are written with the first sign #.
+In Python 101 is an illegal variable, because variables cannot start with a digit.

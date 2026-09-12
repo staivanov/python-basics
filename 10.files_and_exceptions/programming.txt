@@ -1,0 +1,1 @@
+I am improving my Python skills right now. My current grade on 'Python basics' is 6.The next step is to learn how to test my code.And then I will be ready to make a small Python project to harden my skills.
