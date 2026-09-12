@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Two new files for demo, exercises and solutions were created. Plus simple demo.">
-      <change afterPath="$PROJECT_DIR$/10.files_and_exceptions/writing_to_a_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.files_and_exceptions/writing_to_a_file_exercises_solutions.py" afterDir="false" />
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Minor changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +87,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
@@ -101,8 +100,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.9437.214" />
-        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.10315.174" />
+        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
       </set>
     </attachedChunks>
   </component>
@@ -137,23 +136,9 @@
       <workItem from="1787426619541" duration="31000" />
       <workItem from="1787426657450" duration="545000" />
       <workItem from="1787427237179" duration="46198000" />
-      <workItem from="1788501677177" duration="3426000" />
-    </task>
-    <task id="LOCAL-00015" summary="little modification">
-      <option name="closed" value="true" />
-      <created>1784199031056</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1784199031056</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Folder renaming according convention for naming folders in Python.">
-      <option name="closed" value="true" />
-      <created>1784227994593</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1784227994593</updated>
+      <workItem from="1788501677177" duration="4104000" />
+      <workItem from="1788978312933" duration="556000" />
+      <workItem from="1788978901344" duration="13000" />
     </task>
     <task id="LOCAL-00017" summary="New folder for working with lists plus two files for demo and solutions on exercises.">
       <option name="closed" value="true" />
@@ -531,7 +516,23 @@
       <option name="project" value="LOCAL" />
       <updated>1788505085846</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Two new files for demo, exercises and their solutions were created with topic - writing to a file.">
+      <option name="closed" value="true" />
+      <created>1788505195897</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1788505195897</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Minor changes.">
+      <option name="closed" value="true" />
+      <created>1788505206853</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1788505206853</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,8 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Two new solutions." />
-    <MESSAGE value="Some modifications." />
     <MESSAGE value="Two new functions. A new function with a list as parameter and second is for list modifying provided list." />
     <MESSAGE value="Two new functions. A new function with a list as parameter and second is for list modifying by provided list." />
     <MESSAGE value="Demo for passing a copy of a list as an argument to a function." />
@@ -580,7 +579,9 @@
     <MESSAGE value="A new function that draws elements in a random positions from the provided source was defined. Alongside with that is a simple demo." />
     <MESSAGE value="A new *.txt file that contains pi digits." />
     <MESSAGE value="Two new files for demo, exercises and solutions were created. Plus simple demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Two new files for demo, exercises and solutions were created. Plus simple demo." />
+    <MESSAGE value="Two new files for demo, exercises and their solutions were created with topic - writing to a file." />
+    <MESSAGE value="Minor changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_basics$numbers_exercises.coverage" NAME="numbers_exercises Coverage Results" MODIFIED="1783927987653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NumbersDemo" />
