@@ -8,10 +8,7 @@ lines = contents.splitlines()
 pi_string = ''
 
 for line in lines:
-   pi_string += line.strip()
+    pi_string += line.strip()
 
 print(pi_string)
 print(f"The Length on pi_string is {len(pi_string)}")
-
-
-
