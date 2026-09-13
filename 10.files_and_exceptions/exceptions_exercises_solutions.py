@@ -40,7 +40,6 @@ try:
     dogs = dogs_path.read_text()
 except FileNotFoundError:
     print("Error in the file path!")
-
 else:
     print(cats)
     print(dogs)
