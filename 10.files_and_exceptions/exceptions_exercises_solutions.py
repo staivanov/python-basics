@@ -43,3 +43,36 @@ except FileNotFoundError:
 else:
     print(cats)
     print(dogs)
+
+print('*' * 30)
+
+
+#  10.10 Common words.
+
+def count_word_occurrences(word: str, path: Path) -> int:
+    """Count occurrences of a word in a text file.
+
+Args:
+    word: The word to search for.
+    path: Path to the text file.
+
+Returns:
+    The number of occurrences of the word.
+"""
+    try:
+        contents = path.read_text(encoding='utf-8')
+    except FileNotFoundError:
+        print("The file is not found on this path! Check the file name or the file path.")
+    else:
+        word_occurrence_cnt = contents.lower().split().count(word.lower())
+        return word_occurrence_cnt
+
+
+books_title = ["The story of the world.txt", "The Adventures of Sherlock Holmes.txt", "The Odyssey.txt"]
+
+for book_title in books_title:
+    current_path = Path(book_title)
+    word_token = "the"
+    word_cnt = count_word_occurrences(word_token, current_path)
+    print(f"The word \"{word_token}\" is founded {word_cnt} in {current_path}")
+print('*' * 30)
