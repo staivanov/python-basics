@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Very simple program with a couple of functions. Gets the username from the console and prints it back there.">
-      <change afterPath="$PROJECT_DIR$/10.files_and_exceptions/exceptions_exercises_solutions.py" afterDir="false" />
+    <list default="true" id="29278e8a-f724-495f-b4ff-130d21e8a27a" name="Changes" comment="Simple program that prompts the current user to enter his favorite number and save it locally.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.files_and_exceptions/storing_data_exercises_and_solutions.py" beforeDir="false" afterPath="$PROJECT_DIR$/10.files_and_exceptions/storing_data_exercises_and_solutions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,7 @@
     "Python.remember_me.executor": "Run",
     "Python.simple_data_types.executor": "Run",
     "Python.storing_data.executor": "Run",
+    "Python.storing_data_exercises_and_solutions.executor": "Run",
     "Python.string_demo.executor": "Run",
     "Python.string_exercises.executor": "Run",
     "Python.user.executor": "Run",
@@ -169,71 +170,8 @@
       <workItem from="1788855547653" duration="11688000" />
       <workItem from="1788979297808" duration="4296000" />
       <workItem from="1788985397011" duration="2050000" />
-      <workItem from="1789157470796" duration="9047000" />
-    </task>
-    <task id="LOCAL-00031" summary="Full demo is completed.">
-      <option name="closed" value="true" />
-      <created>1785078630782</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1785078630782</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Renaming folders to make them countable.">
-      <option name="closed" value="true" />
-      <created>1785078759165</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1785078759165</updated>
-    </task>
-    <task id="LOCAL-00033" summary="A new folder was created with a couple of files. User inputs, while loops and file for solutions and exercises over the material in this chapter.">
-      <option name="closed" value="true" />
-      <created>1785444293791</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1785444293791</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Simple demo code and three solutions of exercises.">
-      <option name="closed" value="true" />
-      <created>1785504193205</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1785504193205</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Simple demo code for every topic from this chapter.">
-      <option name="closed" value="true" />
-      <created>1785523765262</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1785523765262</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Solutions of all exercises.">
-      <option name="closed" value="true" />
-      <created>1785527160740</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1785527160740</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Demo for functions with parameters">
-      <option name="closed" value="true" />
-      <created>1785715815736</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1785715815736</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Two new solutions.">
-      <option name="closed" value="true" />
-      <created>1785715851387</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1785715851387</updated>
+      <workItem from="1789157470796" duration="25199000" />
+      <workItem from="1789503748426" duration="4066000" />
     </task>
     <task id="LOCAL-00039" summary="Some modifications.">
       <option name="closed" value="true" />
@@ -563,7 +501,71 @@
       <option name="project" value="LOCAL" />
       <updated>1789160143259</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Solution to the first exercise.">
+      <option name="closed" value="true" />
+      <created>1789242944456</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1789242944456</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Minor changes.">
+      <option name="closed" value="true" />
+      <created>1789242964736</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1789242964736</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Auxiliary *.txt files for exercises 10.8 and 10.9.">
+      <option name="closed" value="true" />
+      <created>1789332571231</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1789332571231</updated>
+    </task>
+    <task id="LOCAL-00083" summary="A new simple program that reads two *.txt files and prints their contents. If there is an error, correct behavior is applied according to Python capabilities.">
+      <option name="closed" value="true" />
+      <created>1789332730569</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1789332730569</updated>
+    </task>
+    <task id="LOCAL-00084" summary="A new simple program that reads two *.txt files and prints their contents. If there is an error, correct behavior is applied according to Python capabilities.">
+      <option name="closed" value="true" />
+      <created>1789332743360</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1789332743360</updated>
+    </task>
+    <task id="LOCAL-00085" summary="A new method that counts occurrences of a word in a text file was defined plus demo. This is the solution to the last exercise.">
+      <option name="closed" value="true" />
+      <created>1789372457970</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1789372457970</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Generated *.txt file what is a partial solution to exercises 10.11-10.11.">
+      <option name="closed" value="true" />
+      <created>1789504689291</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1789504689292</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Simple program that prompts the current user to enter his favorite number and save it locally.">
+      <option name="closed" value="true" />
+      <created>1789504779544</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1789504779544</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,12 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="A new class ElectricCar was defined." />
-    <MESSAGE value="A new class Battery was defined." />
-    <MESSAGE value="A new class Admin was defined." />
-    <MESSAGE value="Major modification inside this class. ElectricCar class was removed and placed in a separate module." />
-    <MESSAGE value="New solutions to exercises." />
-    <MESSAGE value="Minor modifications." />
     <MESSAGE value="A new function that draws elements in a random positions from the provided source was defined. Alongside with that is a simple demo." />
     <MESSAGE value="A new *.txt file that contains pi digits." />
     <MESSAGE value="Two new files for demo, exercises and solutions were created. Plus simple demo." />
@@ -604,7 +600,6 @@
     <MESSAGE value="New *.txt file that contains text that was made line by line from a file with the demo on how to write to a file." />
     <MESSAGE value="One punctuation mistake was corrected." />
     <MESSAGE value="Simple demo how to handle exception with try-except block." />
-    <MESSAGE value="Minor changes." />
     <MESSAGE value="Demo for counting how many words are in the provided hard-coded link to the text file." />
     <MESSAGE value="A new function that counts and prints on the number of all words from the provided *.txt file as a Path was defined." />
     <MESSAGE value="These *.txt files were used as a source for the count_words." />
@@ -612,11 +607,18 @@
     <MESSAGE value="Simple demo with two methods from the json module." />
     <MESSAGE value="A newly generated *.json file by one function from the remember_me(.)py file." />
     <MESSAGE value="Very simple program with a couple of functions. Gets the username from the console and prints it back there." />
-    <option name="LAST_COMMIT_MESSAGE" value="Very simple program with a couple of functions. Gets the username from the console and prints it back there." />
+    <MESSAGE value="Solution to the first exercise." />
+    <MESSAGE value="Minor changes." />
+    <MESSAGE value="Auxiliary *.txt files for exercises 10.8 and 10.9." />
+    <MESSAGE value="A new simple program that reads two *.txt files and prints their contents. If there is an error, correct behavior is applied according to Python capabilities." />
+    <MESSAGE value="A new method that counts occurrences of a word in a text file was defined plus demo. This is the solution to the last exercise." />
+    <MESSAGE value="Generated *.txt file what is a partial solution to exercises 10.11-10.11." />
+    <MESSAGE value="Simple program that prompts the current user to enter his favorite number and save it locally." />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple program that prompts the current user to enter his favorite number and save it locally." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_basics$if_statements_solutions.coverage" NAME="if_statements_solutions Coverage Results" MODIFIED="1784528230078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/if_statements" />
-    <SUITE FILE_PATH="coverage/python_basics$exceptions_exercises_solutions.coverage" NAME="exceptions_exercises_solutions Coverage Results" MODIFIED="1789195317659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.files_and_exceptions" />
+    <SUITE FILE_PATH="coverage/python_basics$exceptions_exercises_solutions.coverage" NAME="exceptions_exercises_solutions Coverage Results" MODIFIED="1789372103959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.files_and_exceptions" />
     <SUITE FILE_PATH="coverage/python_basics$intro_lists.coverage" NAME="intro_lists Coverage Results" MODIFIED="1784047430457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ListsBasics" />
     <SUITE FILE_PATH="coverage/python_basics$user_inputs_while_exercises_and_solutions.coverage" NAME="user_inputs_while_exercises_and_solutions Coverage Results" MODIFIED="1785526878422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.user_input_and_while_loops" />
     <SUITE FILE_PATH="coverage/python_basics$functions_demo.coverage" NAME="functions_demo Coverage Results" MODIFIED="1785877654407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8.functions" />
@@ -627,6 +629,7 @@
     <SUITE FILE_PATH="coverage/python_basics$working_with_lists.coverage" NAME="working_with_lists Coverage Results" MODIFIED="1784377997322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$working_with_lists_exercises.coverage" NAME="working_with_lists_exercises Coverage Results" MODIFIED="1784383156787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working_with_lists" />
     <SUITE FILE_PATH="coverage/python_basics$string_demo.coverage" NAME="string_demo Coverage Results" MODIFIED="1783870652314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StringDemo" />
+    <SUITE FILE_PATH="coverage/python_basics$storing_data_exercises_and_solutions.coverage" NAME="storing_data_exercises_and_solutions Coverage Results" MODIFIED="1789504598305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.files_and_exceptions" />
     <SUITE FILE_PATH="coverage/python_basics$classes_demo.coverage" NAME="classes_demo Coverage Results" MODIFIED="1787732870904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
     <SUITE FILE_PATH="coverage/python_basics$user_inputs_demo.coverage" NAME="user_inputs_demo Coverage Results" MODIFIED="1785497192575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7.user_input_and_while_loops" />
     <SUITE FILE_PATH="coverage/python_basics$car.coverage" NAME="car Coverage Results" MODIFIED="1787732723364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9.classes" />
