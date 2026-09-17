@@ -22,12 +22,9 @@ from pathlib import Path
 def make_user() -> dict:
     """ This function make a new user.
 
-Args:
-   None.
-
 Returns:
     A new user with appropriate attributes in a dictionary.
-"""
+    """
     username = input("What is your username? ")
     first_name = input("What is your first name? ")
     last_name = input("What is your last name? ")
@@ -49,8 +46,8 @@ def get_stored_user(path: Path) -> dict | None:
         user_contents = path.read_text()
         stored_user = json.loads(user_contents)
         return stored_user
-    else:
-        return None
+
+    return None
 
 
 def store_user(user: dict) -> None:
@@ -61,7 +58,7 @@ def store_user(user: dict) -> None:
     path.write_text(user_serialized)
 
 
-def print_user_summary(user: dict):
+def print_user_summary(user: dict) -> None:
     """ Print a summary for the provided user. """
     summary = f"The user with the nickname {user.get('username')} has the name {user.get('first_name')} {user.get('last_name')}. It\'s a {user.get('gender')} on {user.get('age')} years old."
     print(summary)
