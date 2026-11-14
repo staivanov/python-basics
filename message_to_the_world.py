@@ -1,4 +1,4 @@
-message = "Evil never comes alone!"
+message: str = "Evil never comes alone!"
 print(message)
-message = "Fighting the world!"
+message: str = "Fighting the world!"
 print(message)
