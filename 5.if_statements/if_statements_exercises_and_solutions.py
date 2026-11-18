@@ -1,58 +1,66 @@
 # 5.1 Write series of conditional tests.
-car = "Porsche"
-porsche = "Porsche"
+car: str = "Porsche"
+porsche: str = "Porsche"
 print("Is car == Porsche? I predict True")
-print(car == porsche)
+do_cars_match: bool = car == porsche
+print(do_cars_match)
 
-car = "BMW"
-porsche = "Porsche"
+car: str = "BMW"
+porsche: str = "Porsche"
 print("Is car == Audi? I predict True")
-print(car == porsche)
+are_porsche_and_car_same: bool = car == porsche
+print(are_porsche_and_car_same)
 
-car = "Lexus"
-toyota = "Toyota"
+car: str = "Lexus"
+toyota: str = "Toyota"
 print("Is car == Toyota? I predict True")
-print(car == toyota)
+are_toyota_and_car_same: bool = car == toyota
+print(are_toyota_and_car_same)
 
-car = "Acura"
-honda = "Honda"
+car: str = "Acura"
+honda: str = "Honda"
 print("Is car == Acura? I predict True")
-print(not car == honda)
+are_honda_and_car_different: bool = not car == honda
+print(are_honda_and_car_different)
+print("*" * 30)
 
 # 5.3 Alien Colors 1.
-blue_color = "blue"
-alien_color = blue_color
-green_color = "green"
-red_color = "red"
-player_points = 0
-yellow_color = 0
+blue_color: str = "blue"
+alien_color: str = blue_color
+green_color: str = "green"
+red_color: str = "red"
+player_points: int = 0
+yellow_color: int = 0
 
 if alien_color == green_color:
     print("Green. You just earn 5 points.")
-    player_points = 5
+    player_points: int = 5
 elif alien_color == blue_color:
     print("Blue. You just earn 20 points.")
-    player_points = 20
+    player_points: int = 20
     print()
 elif alien_color == red_color:
     print("Red. You just earn 15 points.")
-    player_points = 15
+    player_points: int = 15
     print()
 elif alien_color == yellow_color:
     print("Yellow. You just earn 10 points.")
-    player_points = 10
+    player_points: int = 10
 else:
-    player_points = 3
+    player_points: int = 3
     print()
-# 5.6 Stages of Life
-person_age = 36
 
-baby_age = 2
-toddler_age = 4
-kid_age = 13
-teenager_age = 20
-adult_age = 65
-elder_age = 65
+print("*" * 30)
+
+# 5.6 Stages of Life
+person_age: int = 36
+
+baby_age: int = 2
+toddler_age: int = 4
+kid_age: int = 13
+teenager_age: int = 20
+adult_age: int = 65
+elder_age: int = 65
 
 if person_age < baby_age:
     print("You are a baby.")
@@ -66,12 +74,14 @@ elif teenager_age <= person_age < adult_age:
     print("You are an adult.")
 elif elder_age >= person_age:
     print("You are an elder.")
-print("***********************************")
+
+print("*" * 30)
+
 # 5.7 Favorite fruit
-banana = "banana"
-apple = "apple"
-pineapple = "pineapple"
-fav_fruits = [banana, apple, pineapple]
+banana: str = "banana"
+apple: str = "apple"
+pineapple: str = "pineapple"
+fav_fruits: list[str] = [banana, apple, pineapple]
 
 if "pear" in fav_fruits:
     print("You really like pear!")
@@ -83,10 +93,11 @@ if apple in fav_fruits:
     print("You really like", apple, end="!\n", flush=True)
 if pineapple in fav_fruits:
     print("You really like", pineapple, end="!\n", flush=True)
-print("***********************************")
+print("*" * 30)
+
 # 5.8 Hello Admin
-admin = "admin"
-users = ["dellan", "hall", "Pirata", admin, "kiko"]
+admin: str = "admin"
+users: list[str] = ["dellan", "hall", "Pirata", admin, "kiko"]
 
 for user in users:
     if user == admin:
@@ -97,20 +108,22 @@ for user in users:
 if not users:
     print("We need to find some users!")
 
-print("***********************************")
+print("*" * 30)
+
 # 5.10 Checking usernames
 
-current_users = ["kiril", "antoan", "libristo", "jana", "kalina"]
-new_users = ["kiril", "kalina", "kepy", "maestro", "otamendi"]
+current_users: list[str] = ["kiril", "antoan", "libristo", "jana", "kalina"]
+new_users: list[str] = ["kiril", "kalina", "kepy", "maestro", "otamendi"]
 for new_user in current_users:
     if new_user in new_users:
         print("You need to enter a new username, because this is already registered.")
     else:
         print("Your username is free. You can register it.")
 
-print("***********************************")
+print("*" * 30)
+
 # 5.11 Ordinal Numbers
-numbers_v2 = list(range(1, 10))
+numbers_v2: list[int] = list(range(1, 10))
 
 for number in numbers_v2:
     if number == 1:
